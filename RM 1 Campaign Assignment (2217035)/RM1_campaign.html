@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RM1 Campaign Program</title>
+    <link rel="stylesheet" href="RM1_campaign2.css">
+</head>
+<body>
+
+    <header>
+        <img src="iium_logo.png" alt="IIUM Logo">
+        <h1>RM1 Campaign Program</h1>
+        <p>Let your contributions be perpetual for the pleasure of Allah swt</p>
+        <p>ٱلَّذِينَ يُنفِقُونَ أَمْوَٰلَهُمْ فِى سَبِيلِ ٱللَّهِ ثُمَّ لَا يُتْبِعُونَ مَآ أَنفَقُوا۟ مَنًّۭا وَلَآ أَذًۭى ۙ لَّهُمْ أَجْرُهُمْ عِندَ رَبِّهِمْ وَلَا خَوْفٌ عَلَيْهِمْ وَلَا هُمْ يَحْزَنُونَ </p>
+            
+        <p>“The example of those who spend their wealth in the
+            way of Allah is like a seed [of grain] which grows seven
+            spikes; in each spike is a hundred grains. And Allah
+            multiplies [His reward] for whom He wills. And Allah is
+            all-Encompassing and Knowing.”
+            Al-Baqarah:261</p>
+    </header>
+
+    <section>
+        <img src="program_image.jpg" alt="Program Image">
+        <h2>Monthly Salary Deduction Form</h2>
+
+        <form id="deductionForm">
+            <label for="staffNo">Staff No.:</label>
+            <input type="text" id="staffNo" name="staffNo" required>
+
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="kcdio">K/C/D/I/O:</label>
+            <input type="text" id="kcdio" name="kcdio" required>
+
+            <label for="contactNo">Contact No.:</label>
+            <input type="tel" id="contactNo" name="contactNo" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="startDate">Deduction Start Date:</label>
+            <input type="date" id="startDate" name="startDate" required>
+    
+            <label for="endDate">Deduction End Date:</label>
+            <input type="date" id="endDate" name="endDate" required>
+
+            <label for="salary">Monthly Salary:</label>
+            <input type="number" id="salary" name="salary" required>
+
+            <label for="deductionAmount">Deduction Amount:</label>
+            <input type="number" id="deductionAmount" name="deductionAmount" required>
+
+            <label for="paymentMethod">Payment Method:</label>
+            <select id="paymentMethod" name="paymentMethod">
+                <option value="bankTransfer">Bank Transfer</option>
+                <option value="Credit Card">Credit Card</option>
+            </select>
+
+            <button type="button" onclick="submitForm()">Submit</button>
+        </form>
+    </section>
+
+    <section>
+        <h2>IIUM Endowment Fund Contact Information</h2>
+        <p>For more information, contact:</p>
+        <p>Email: info@endowmentfund.iium.edu.my</p>
+        <p>Phone: +60 3-1234-5678</p>
+    </section>
+
+    <script src="RM1_campaign.js"></script>
+
+</body>
+</html>
+
