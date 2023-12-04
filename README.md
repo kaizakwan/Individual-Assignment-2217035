@@ -1,4 +1,14 @@
+JS Interaction :
+1. User Action: Clicks the "Submit" button on the form.
+2. JavaScript Action: The submitForm function is triggered.
+3. JavaScript Functionality:
+  -Checks if essential form fields (name, staff number, K/C/D/I/O, contact number, email, start date, end date, monthly salary, deduction amount) are filled out.
+  -If any field is empty, alerts the user to fill in all fields.
+  -If all fields are filled, shows an alert indicating successful form submission.
+4. Calendar fucntion for the starting date of deduction and end of deduction.
 
-The JavaScript interaction in the 1-page website involves form submission handling. Specifically, when the user clicks the "Submit" button, the submitForm function is triggered. This function performs basic form validation by checking if essential fields (name, staff number, K/C/D/I/O, contact number, email, start date, end date, monthly salary, deduction amount) are filled out. If any of these fields are empty, it alerts the user to fill in all fields. If all fields are filled, it shows an alert indicating that the form has been submitted successfully. You can extend this function to include further actions, such as sending the form data to a server.
-
-As for references, the code I provided is based on general HTML, CSS, and JavaScript practices. The HTML and CSS adhere to standard conventions for structuring a webpage and styling its elements. The JavaScript function follows a simple form validation pattern commonly used in web development.
+Reference:
+1. IIUM website, to take inspiration for design https://www.iium.edu.my/v2/
+2. IIUM logo
+3. IIUM Endowment Fund Contact Information  info@endowmentfund.iium.edu.my
+4. Picture for the Program Image https://www.hollows.org/au/blog/how-do-i-choose-a-charity-to-support
