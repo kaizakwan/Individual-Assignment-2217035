@@ -1,1 +1,4 @@
-# Individual-Assignment-2217035
+
+The JavaScript interaction in the 1-page website involves form submission handling. Specifically, when the user clicks the "Submit" button, the submitForm function is triggered. This function performs basic form validation by checking if essential fields (name, staff number, K/C/D/I/O, contact number, email, start date, end date, monthly salary, deduction amount) are filled out. If any of these fields are empty, it alerts the user to fill in all fields. If all fields are filled, it shows an alert indicating that the form has been submitted successfully. You can extend this function to include further actions, such as sending the form data to a server.
+
+As for references, the code I provided is based on general HTML, CSS, and JavaScript practices. The HTML and CSS adhere to standard conventions for structuring a webpage and styling its elements. The JavaScript function follows a simple form validation pattern commonly used in web development.
